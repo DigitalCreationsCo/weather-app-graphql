@@ -1,0 +1,53 @@
+.weatherComponent {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherInput > h2 {
+    margin-bottom: 8px;
+    font-size: 2.8em;
+}
+
+.weatherInput > .userInput {
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.weatherInput > form > .inputField {
+    width: 320px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+.weatherInput > form > .inputField[type="text"] {
+    font-size: 3.4em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+
+.weatherInput > form > .inputField::placeholder {
+    color: #fff;
+}
+
+.weatherInput > form > .inputField:focus::placeholder {
+    color: transparent;
+}
+
+.weatherInput > form > .submit{
+    margin: 10px;
+    height: 4em;
+    display: none;
+}
+
+.weatherResult {
+    margin: 10px auto;    
+}
